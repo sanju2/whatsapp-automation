@@ -27,5 +27,6 @@ pip install -r requirements.txt
 zappa init
 zappa deploy dev
 zappa update dev # If you need update whatsapp group urls or current_group
+zappa status dev # Check created resources in AWS
 zappa undeploy dev # If you need destroy full application
 ```
